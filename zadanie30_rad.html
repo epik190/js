@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> Raducha zad30 </title>
+		<script type="text/javascript">
+			var telefon = 
+			{
+				marka: 'Iphone',
+				model: '14',
+				system: 'IOS',
+				telefon_wyswietl_raducha: function()
+				{
+					document.write(this.marka+' '+this.model+'<br>'+'System:'+' '+this.system)
+				}
+			}
+			telefon.telefon_wyswietl_raducha();
+			function okno_zamknij()
+			{
+				window.close()
+			}	
+		</script>
+	</head>
+	<body>
+		<br/>
+		programowanie obiektowe
+		<br/>
+		<input type="button" value="zamknij okno" onclick="okno_zamknij()">
+	</body>
+</html>
