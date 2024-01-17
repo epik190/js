@@ -1,0 +1,25 @@
+<html>
+	<head>
+	
+	</head>
+	<body>
+		<script>
+			function fun_rad() 
+			{
+				var x_rad = prompt("Podaj kolor", "");
+				if(x_rad == 1 || x_rad.toLowerCase() == "czerwony") 
+				{
+					document.write("<h1 style=\"color:red;\"> Wczytałeś kolor czerwony </h1><br/>"); 
+				}
+				else if(x_rad == 2 || x_rad.toLowerCase() == "niebieski") 
+				{
+					document.write("<h6 style=\"color:blue;\"> Wczytałeś kolor niebieski </h6><br/>");
+				}
+			}
+		</script>
+		<p style="color:green; font-size:35px;"><b> MENU: </b></p><br/><br/>
+		<p style="color:red; font-size:35px;"><b> 1-CZERWONY </b></p>
+		<p style="color:blue; font-size:35px;"><b> 2-NIEBIESKI </b></p>
+		<input type="button" name="raducha" value="Oblicz" onclick="fun_rad()"/>
+	</body>
+</html>
